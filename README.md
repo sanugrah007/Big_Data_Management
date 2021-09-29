@@ -1,7 +1,8 @@
 # Big_Data_Management
 Consists of a few projects done in Big Data Courses
 
-WordCount for Named Entities
+Project1.   WordCount for Named Entities
+
 In this part, you will compute the word frequency for named entities in a large file. You are free to use any NLP library that works with Spark and Scala or PySpark. A good choice is this one: https://github.com/JohnSnowLabs/spark-nlp-workshop
 The steps of the assignment would be as follows:
 1. Find a large text file from the Gutenberg project: https://www.gutenberg.org and upload it to your Databricks cluster.
@@ -9,7 +10,8 @@ The steps of the assignment would be as follows:
 3. The output from the map task should be in the form of (key, Value) where key is the name entity, and value is its count (i.e. once every time it occurs)
 4. The output from the reducer should be sorted in descending order of count. That is, the named entity that is most frequent should appear at the top.
 
-Search Engine for Movie Plot Summaries
+Project2.   Search Engine for Movie Plot Summaries
+
 In this part, we will work with a dataset of movie plot summaries that is available from the Carnegie Movie Summary Corpus site. We are interested in building a search engine for the plot summaries that are available in the file “plot summaries.txt” that is available under the Dataset link
 of the above page.
 You will use the tf-idf technique studied in class to accomplish the above task. For more details on how to compute tf-idf using MapReduce, see the links below:
